@@ -5,7 +5,7 @@
                     <div class="footer-col1">
                         <div class="footer-col-title">
                             <a href="#">
-                                <img src="<?= URL; ?>public/images/icons/logo-01.png" alt="LOGO">
+                                <img src="<?= URL; ?>public/images/logo-short.png" alt="LOGO">
                             </a>
                         </div>
 
@@ -20,7 +20,7 @@
                                 </span>
 
                                 <span class="size-w-12 p-t-1">
-                                    markrussell@example.com
+                                   example@example.com
                                 </span>
                             </li>
 
@@ -30,7 +30,7 @@
                                 </span>
 
                                 <span class="size-w-12 p-t-1">
-                                    No 40 Baria Sreet 133/2, NewYork
+                                    Dirección 123
                                 </span>
                             </li>
 
@@ -40,7 +40,7 @@
                                 </span>
 
                                 <span class="size-w-12 p-t-1">
-                                    (785) 977 5767
+                                    (595 021) 123 4321
                                 </span>
                             </li>
                         </ul>
@@ -49,150 +49,53 @@
                     <div class="footer-col2">
                         <div class="footer-col-title flex-m">
                             <span class="txt-m-109 cl3">
-                                Information
+                                Información
                             </span>
                         </div>
 
                         <ul>
                             <li class="p-b-16">
                                 <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    About our shop
+                                    Sobre Nosotros
                                 </a>
                             </li>
 
                             <li class="p-b-16">
                                 <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    Top sellers
+                                    Nuestros Productos
                                 </a>
                             </li>
 
                             <li class="p-b-16">
                                 <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    Our blog
+                                   Certificaciones
                                 </a>
                             </li>
 
                             <li class="p-b-16">
                                 <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    New products
+                                    Logistica
                                 </a>
                             </li>
 
                             <li class="p-b-16">
                                 <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    Secure shopping
+                                    Calidad
+                                </a>
+                            </li>
+                            <li class="p-b-16">
+                                <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                                    Neo Pure
                                 </a>
                             </li>
                         </ul>
-                    </div>
-
-                    <div class="footer-col3">
-                        <div class="footer-col-title flex-m">
-                            <span class="txt-m-109 cl3">
-                                My Account
-                            </span>
-                        </div>
-
-                        <ul>
-                            <li class="p-b-16">
-                                <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    My account
-                                </a>
-                            </li>
-
-                            <li class="p-b-16">
-                                <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    Discount
-                                </a>
-                            </li>
-
-                            <li class="p-b-16">
-                                <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    Personal information
-                                </a>
-                            </li>
-
-                            <li class="p-b-16">
-                                <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    My address
-                                </a>
-                            </li>
-
-                            <li class="p-b-16">
-                                <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
-                                    Order history
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-col4">
-                        <div class="footer-col-title flex-m">
-                            <span class="txt-m-109 cl3">
-                                Instagram
-                            </span>
-                        </div>
-
-                        <div class="flex-w flex-sb p-t-6">
-                            <div class="size-w-13 m-b-10">
-                                <a href="#" class="dis-block size-a-7 bg-img1 hov4"
-                                   style="background-image: url('images/instagram-01.jpg');"></a>
-                            </div>
-
-                            <div class="size-w-13 m-b-10">
-                                <a href="#" class="dis-block size-a-7 bg-img1 hov4"
-                                   style="background-image: url('images/instagram-02.jpg');"></a>
-                            </div>
-
-                            <div class="size-w-13 m-b-10">
-                                <a href="#" class="dis-block size-a-7 bg-img1 hov4"
-                                   style="background-image: url('images/instagram-03.jpg');"></a>
-                            </div>
-
-                            <div class="size-w-13 m-b-10">
-                                <a href="#" class="dis-block size-a-7 bg-img1 hov4"
-                                   style="background-image: url('images/instagram-04.jpg');"></a>
-                            </div>
-
-                            <div class="size-w-13 m-b-10">
-                                <a href="#" class="dis-block size-a-7 bg-img1 hov4"
-                                   style="background-image: url('images/instagram-05.jpg');"></a>
-                            </div>
-
-                            <div class="size-w-13 m-b-10">
-                                <a href="#" class="dis-block size-a-7 bg-img1 hov4"
-                                   style="background-image: url('images/instagram-06.jpg');"></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
                 <div class="flex-w flex-sb-m bo-t-1 bocl14 p-tb-14">
                     <span class="txt-s-101 cl9 p-tb-10 p-r-29">
-                        Copyright © 2017 Organive. All rights reserved.
+                        Copyright © 2018 Todos los derechos reservados.
                     </span>
-
-                    <div class="flex-w flex-m">
-                        <a href="#" class="m-r-29 m-tb-10">
-                            <img src="<?= URL; ?>public/images/icons/icon-pay-01.png" alt="ICON-PAY">
-                        </a>
-
-                        <a href="#" class="m-r-29 m-tb-10">
-                            <img src="<?= URL; ?>public/images/icons/icon-pay-02.png" alt="ICON-PAY">
-                        </a>
-
-                        <a href="#" class="m-r-29 m-tb-10">
-                            <img src="<?= URL; ?>public/images/icons/icon-pay-03.png" alt="ICON-PAY">
-                        </a>
-
-                        <a href="#" class="m-r-29 m-tb-10">
-                            <img src="<?= URL; ?>public/images/icons/icon-pay-04.png" alt="ICON-PAY">
-                        </a>
-
-                        <a href="#">
-                            <img src="<?= URL; ?>public/images/icons/icon-pay-05.png" alt="ICON-PAY">
-                        </a>
-                    </div>
                 </div>
             </div>
         </footer>

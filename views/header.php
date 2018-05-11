@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Home 01</title>
+        <title><?= $this->title; ?></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--===============================================================================================-->	
@@ -38,7 +38,6 @@
         <!--===============================================================================================-->
     </head>
     <body class="animsition">
-
         <!-- Header -->
         <header class="header-v1">
             <!-- Header desktop -->
@@ -48,93 +47,54 @@
                         <div class="left-header">
                             <!-- Logo desktop -->		
                             <div class="logo">
-                                <a href="index.html"><img src="<?= URL; ?>public/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+                                <a href="index.html"><img src="<?= URL; ?>public/images/logo-short.png" alt="International Market"></a>
                             </div>
                         </div>
                         <div class="left-header">
                             <!-- Menu desktop -->
                             <div class="menu-desktop">
                                 <ul class="main-menu">
-                                    <li class="active-menu">
-                                        <a href="index.html">Home</a>
+                                    <li class="active-menu"><a href="<?= URL; ?>">Inicio</a></li>
+                                    <li><a href="#">Sobre Nosotros</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Homepage 1</a></li>
-                                            <li><a href="home-02.html">Homepage 2</a></li>
-                                            <li><a href="home-03.html">Homepage 3</a></li>
-                                            <li><a href="home-04.html">Homepage 4</a></li>
-                                            <li><a href="home-05.html">Homepage 5</a></li>
-                                            <li><a href="home-06.html">Homepage 6</a></li>
+                                            <li><a href="#">Nuestros Productos</a></li>
+                                            <li><a href="#">Nuestros Procesos</a></li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="#">Page</a>
+                                        <a href="#">Nuestros Productos</a>
                                         <ul class="sub-menu">
-                                            <li><a href="about-01.html">About 1</a></li>
-                                            <li><a href="about-02.html">About 2</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                            <li><a href="error.html">404 Error</a></li>
-                                            <li><a href="checkout.html">CheckOut</a></li>
-                                            <li><a href="account.html">My Account</a></li>
-                                            <li><a href="account-lost-pass.html">My Account Lost Pass</a></li>
-                                            <li><a href="account-register.html">My Account Register</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="#">Chia</a></li>
+                                            <li><a href="#">Sesamo</a></li>
+                                            <li><a href="#">Maní</a></li>
                                         </ul>
                                     </li>
-
+                                    <li><a href="#">Certificaciones</a></li>
                                     <li>
-                                        <a href="shop-sidebar-grid.html">Shop</a>
+                                        <a href="#">Logistica</a>
                                         <ul class="sub-menu">
-                                            <li><a href="shop-sidebar-grid.html">Shop Sidebar Grid</a></li>
-                                            <li><a href="shop-sidebar-list.html">Shop Sidebar List</a></li>
-                                            <li><a href="shop-product-grid.html">Shop Product Grid</a></li>
-                                            <li><a href="shop-product-list.html">Shop Product List</a></li>
-                                            <li><a href="product-single.html">Product Single</a></li>
-                                            <li><a href="shop-cart.html">Shop Cart</a></li>
+                                            <li><a href="#">Embarque</a></li>
+                                            <li><a href="#">Carga a contenedor</a></li>
+                                            <li><a href="#">Carga a contenedor</a></li>
                                         </ul>
                                     </li>
-
-                                    <li>
-                                        <a href="blog-list.html">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="blog-grid-01.html">Blog Grid 1</a></li>
-                                            <li><a href="blog-grid-02.html">Blog Grid 2</a></li>
-                                            <li><a href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="gallery-01.html">Gallery</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="gallery-01.html">Gallery 1</a></li>
-                                            <li><a href="gallery-02.html">Gallery 2</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="contact-01.html">Contact</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="contact-01.html">Contact 1</a></li>
-                                            <li><a href="contact-02.html">Contact 2</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#">Calidad</a></li>
+                                    <li><a href="#">Neo Pure</a></li>
+                                    <li><a href="#">Contacto</a></li>
                                 </ul>
                             </div>	
                         </div>
-
-                        
-
                         <div class="right-header">
                             <!-- Icon header -->
                             <div class="wrap-icon-header flex-w flex-r-m h-full wrap-menu-click p-t-8">
                                 <div class="h-full flex-m">
                                     <div class="icon-header-item flex-c-m trans-04 js-show-modal-search">
-                                        <img src="<?= URL; ?>public/images/icons/icon-search.png" alt="SEARCH">
+                                        <img src="<?= URL; ?>public/images/icons/icon-search.png" alt="Buscat">
                                     </div>
                                 </div>
 
-                                <div class="wrap-cart-header h-full flex-m m-l-10 menu-click">
+<!--                                <div class="wrap-cart-header h-full flex-m m-l-10 menu-click">
                                     <div class="icon-header-item flex-c-m trans-04 icon-header-noti" data-notify="2">
                                         <img src="<?= URL; ?>public/images/icons/icon-cart-2.png" alt="CART">
                                     </div>
@@ -142,7 +102,7 @@
                                     <div class="cart-header menu-click-child trans-04">
                                         <div class="bo-b-1 bocl15">
                                             <div class="size-h-2 js-pscroll m-r--15 p-r-15">
-                                                <!-- cart header item -->
+                                                 cart header item 
                                                 <div class="flex-w flex-str m-b-25">
                                                     <div class="size-w-15 flex-w flex-t">
                                                         <a href="product-single.html" class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14">
@@ -171,7 +131,7 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- cart header item -->
+                                                 cart header item 
                                                 <div class="flex-w flex-str m-b-25">
                                                     <div class="size-w-15 flex-w flex-t">
                                                         <a href="product-single.html" class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14">
@@ -227,7 +187,7 @@
                                             check out
                                         </a>	
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </nav>
@@ -456,7 +416,7 @@
                         <button class="flex-c-m trans-04">
                             <span class="lnr lnr-magnifier"></span>
                         </button>
-                        <input class="plh1" type="text" name="search" placeholder="Search...">
+                        <input class="plh1" type="text" name="search" placeholder="Buscar...">
                     </form>
                 </div>
             </div>
