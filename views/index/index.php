@@ -373,8 +373,8 @@
                          data-basealign="slide" 
                          data-responsive_offset="on"
                          >
-                        <a href="shop-sidebar-grid.html" class="btn-slide flex-c-m">
-                            Shop now
+                        <a href="#" class="btn-slide flex-c-m">
+                            Más Información
                             <span class="lnr lnr-chevron-right m-l-7"></span>
                             <span class="lnr lnr-chevron-right"></span>
                         </a>
